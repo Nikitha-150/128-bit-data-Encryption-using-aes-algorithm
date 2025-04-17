@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-/////////////////////////////////////////////////////////
 module main(data, key, en_key);
 input [127:0] data, key;
 output [127:0] en_key;
