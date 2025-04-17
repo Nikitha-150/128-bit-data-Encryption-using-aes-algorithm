@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    12:39:40 06/10/2017 
-// Design Name: 
-// Module Name:    sub_byte 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: Byte substitution using the S-box
-//
-// Dependencies: sbox module
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module sub_byte(in_key, out_key);
 input [127:0] in_key;
 output [127:0] out_key;
