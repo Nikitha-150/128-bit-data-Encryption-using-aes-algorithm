@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:15:05 06/09/2017 
-// Design Name: 
-// Module Name:    mix_col 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: MixColumns transformation for AES
-//
-// Dependencies: None
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 module mix_col(i_shift, i_mix);
 input [127:0] i_shift;
 output [127:0] i_mix;
